@@ -1,0 +1,11 @@
+/* Rolagem suave ao clicar nos botões/links da página */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Foco em alto contraste para navegação por teclado */
+a:focus, 
+button:focus {
+    outline: 4px solid #f59e0b !important;
+    outline-offset: 2px;
+}
